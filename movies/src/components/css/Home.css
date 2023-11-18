@@ -1,0 +1,23 @@
+body {
+  background-color: #3f2e3e;
+  color: white;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 970px) {
+  .sub-header {
+    display: block;
+    margin: 10px;
+  }
+}

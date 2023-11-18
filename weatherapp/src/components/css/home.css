@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@200;300;400&display=swap");
+
+body,
+html {
+  color: rgb(72, 72, 72);
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  height: 80vh; /* Adjust to your needs */
+}
+
+.container {
+  padding: 15px;
+}
+
+.mixmax {
+  display: "flex";
+  justify-content: "space-between";
+  width: "20%";
+}
+
+@media (max-width: 1000px) {
+  .mixmax {
+    display: block;
+  }
+}
